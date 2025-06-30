@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Enhance initial dark theme experience */
+  background: #181a20 !important;
+  color: #f4f6fb;
+  min-height: 100vh;
+  transition: background 0.25s;
 }
 
 code {
